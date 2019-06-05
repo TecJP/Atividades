@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse justify-content-end">
+        <div class="collapse navbar-collapse justify-content-end container">
             <ul class="navbar-nav">
                 <li class="nav-item">
                 </li>
@@ -39,14 +39,32 @@
             <nav class="col-md-2 d-none d-md-block bg-light sidebar">
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
-                        <li><a href="#">Dashboard</a></li>
-                        <li><a href="#">Analytics</a></li>
-                        <li><a href="#">eCommerce</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Dashboard</a>
+                            <div class="collapse" id="collapseExample">
+                                    <ul>
+                                        <li>
+                                            <a class="nav-item" href="#">Analytics</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item" href="#">eCommerce</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </li>
                         <h6><span>Apps</span></h6>
-                        <li><a href="#">E-mail</a></li>
-                        <li><a href="#">Chat</a></li>
-                        <li><a href="#">Todo</a></li>
-                        <li><a href="#">Calendar</a></li>
+                        <li class="nav-item">
+                            <a href="#">E-mail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Todo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Calendar</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
