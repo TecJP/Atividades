@@ -1,0 +1,25 @@
+{
+  "name": "atividades",
+  "version": "1.0.0",
+  "description": "Atividades de Javascript para aumento de conmhecimento..",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TecJP/Atividades.git"
+  },
+  "keywords": [
+    "atividades",
+    "js",
+    "estudos",
+    "praticando"
+  ],
+  "author": "TecJP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TecJP/Atividades/issues"
+  },
+  "homepage": "https://github.com/TecJP/Atividades#readme"
+}
