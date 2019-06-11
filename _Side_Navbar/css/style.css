@@ -27,3 +27,8 @@
   top: 0;
   padding-top: .5rem;
 }
+
+.chart-container {
+  padding-top: 56px;
+  padding-left: 220px;
+}
