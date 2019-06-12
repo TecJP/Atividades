@@ -1,3 +1,7 @@
+.p-0 {
+  padding: 0px;
+}
+
 .shadow {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
 }
@@ -28,7 +32,12 @@
   padding-top: .5rem;
 }
 
-.chart-container {
+.title  {
   padding-top: 56px;
-  padding-left: 220px;
+  /* padding-left: 240px; */
+}
+
+.chart-container {
+  /* padding-top: 56px;
+  padding-left: 240px; */
 }
